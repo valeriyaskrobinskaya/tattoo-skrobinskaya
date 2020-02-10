@@ -1,0 +1,13 @@
+html {
+  background: #000000;
+}
+
+main {
+  box-sizing: border-box;
+}
+
+input {
+  border-bottom: #EAEAEA;
+  color: #EAEAEA;
+  background: #000000;
+}

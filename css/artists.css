@@ -1,0 +1,21 @@
+html {
+  background: #000000;
+  color: white;
+}
+
+main {
+  padding-top: 4.6rem;
+}
+
+.artist-photo {
+  display: inline-block;
+  width: 25%;
+}
+
+.artists-overview__ivleev, .artists-overview__gromova, .artists-overview__petrov {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4.6rem;
+  padding: 1.5em;
+}

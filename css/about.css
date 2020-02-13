@@ -1,0 +1,41 @@
+html {
+  background: #000000;
+  color: white;
+}
+main {
+  padding-top: 4.6rem;
+}
+
+.studio-overview {
+  display: flex;
+  justify-content: space-around;
+}
+
+.studio-information {
+  box-sizing: border-box;
+  width: 25em;
+}
+
+.studio-photo {
+  padding-top: 5em;
+  width: 25em
+}
+
+h1 {
+  text-align: center;
+}
+ div.studio-information > p {
+   text-align: left;
+ }
+
+.studio-services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+
+figcaption {
+  width: 25em;
+}

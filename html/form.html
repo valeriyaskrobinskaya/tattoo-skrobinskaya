@@ -34,25 +34,31 @@
     </nav>
   </header>
   <main>
-    <img class="contacts-logo" src="../images/contacts.png" alt="Contacts">
-    <form action="#">
-      <input type="text" name="name" value="Ваше имя">
-      <input type="text" name="email" value="Ваша почта"><br>
-      <input type="text" name="number" value="Ваш номер">
-      <input type="text" name="message" value="Введите ваше сообщение">
+<!--    <img class="contacts-logo" src="../images/contacts.png" alt="Contacts">-->
+    <form class="transparent">
+      <div class="form-inner">
+        <h3>Записаться на консультацию</h3>
+        <label for="username">Ваше имя</label>
+        <input type="text" id="username">
+        <label for="email">Ваша почта</label>
+        <input id="email" type="email">
+        <label for="phone">Ваш номер телефона</label>
+        <input type="text" id="phone">
+        <input type="submit" value="Отправить">
+      </div>
     </form>
     <div>
       <article class="subscribe">
         <h2>Подписываемся на нас:</h2>
         <ul class="subscribe-list">
-          <li>
-            <a href="#">Vkontakte</a>
+          <li class="vk">
+            <a class="vk" href="#">Vkontakte</a>
           </li>
-          <li>
-            <a href="#">Instagram</a>
+          <li class="insta">
+            <a class="insta" href="#">Instagram</a>
           </li>
-          <li>
-            <a href="#">Youtube</a>
+          <li class="youtube">
+            <a class="youtube" href="#">Youtube</a>
           </li>
         </ul>
       </article>

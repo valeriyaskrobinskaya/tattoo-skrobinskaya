@@ -6,8 +6,89 @@ main {
   box-sizing: border-box;
 }
 
-input {
-  border-bottom: #EAEAEA;
-  color: #EAEAEA;
-  background: #000000;
+.transparent {
+  position: relative;
+  max-width: 400px;
+  padding: 60px 50px;
+  margin: 50px auto 0;
 }
+
+.transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ }
+.form-inner {position: relative;}
+.form-inner h3 {
+  position: relative;
+  margin-top: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/*.form-inner h3:after {*/
+/*  content: "";*/
+/*  position :absolute;*/
+/*  left: 0;*/
+/*  bottom: -6px;*/
+/*  height: 2px;*/
+/*  width: 60px;*/
+/*  background: #1762EE;*/
+.form-inner label {
+  display: block;
+  padding-left: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255,255,255,.6);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.form-inner input {
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+  margin: 10px 0 15px;
+  border-width: 0;
+  line-height: 40px;
+  border-radius: 20px;
+  color: white;
+  background: rgba(255,255,255,.2);
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-inner input[type="submit"] {
+  background: white;
+color: black;
+}
+
+.subscribe {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.subscribe {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #EAEAEA;
+  font-size: 24px;
+}
+
+a:hover {
+  color: #4E4E4E;
+}
+
+.vk:before {
+  background-image: url("../images/Vector.png");
+  width: 10px;
+}
+
+
+

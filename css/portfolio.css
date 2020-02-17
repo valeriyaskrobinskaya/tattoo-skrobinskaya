@@ -1,0 +1,19 @@
+html {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/background-image.jpg);
+}
+main {
+  padding-top: 4.6rem;
+}
+
+.gallery {
+  color: #EAEAEA;
+  margin-bottom: 5%;
+}
+
+.tattoo-examples {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  box-sizing: border-box;
+  width: 80%;
+}

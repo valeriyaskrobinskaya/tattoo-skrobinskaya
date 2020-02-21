@@ -5,7 +5,7 @@ main {
  box-sizing: border-box;
 }
 
-#studio-overview {
+.studio-overview {
  width: 100%;
  height: 600px;
  padding: 10px;
@@ -19,7 +19,11 @@ main {
  left: 10%;
 }
 
-span {
+div.logo > img {
+ display: inline-block;
+}
+
+.form-link {
  position: absolute;
  top:70%;
  left: 10%;
@@ -27,7 +31,7 @@ span {
  border-radius: 10px;
 }
 
-span > a {
+span.form-link > a {
  text-decoration: none;
  font-style: normal;
  font-weight: normal;
@@ -38,11 +42,11 @@ span > a {
  padding: 10px;
 }
 
-span > a:after {
+span.form-link > a:after {
  content: ' \21E2';
 }
 
-span > a:hover {
+span.form-link > a:hover {
  color: #4E4E4E;
 }
 

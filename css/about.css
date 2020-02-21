@@ -9,11 +9,12 @@ main {
 .studio-overview {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10%;
 }
 
 .studio-information {
   box-sizing: border-box;
-  width: 25em;
+  width: 30em;
 }
 
 .studio-photo {
@@ -32,8 +33,6 @@ h1 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
-
 }
 
 figcaption {

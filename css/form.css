@@ -21,7 +21,11 @@ main {
   right: 0;
   bottom: 0;
  }
-.form-inner {position: relative;}
+
+.form-inner {
+  position: relative;
+}
+
 .form-inner h3 {
   position: relative;
   margin-top: 0;
@@ -32,14 +36,7 @@ main {
   text-transform: uppercase;
   text-align: center;
 }
-/*.form-inner h3:after {*/
-/*  content: "";*/
-/*  position :absolute;*/
-/*  left: 0;*/
-/*  bottom: -6px;*/
-/*  height: 2px;*/
-/*  width: 60px;*/
-/*  background: #1762EE;*/
+
 .form-inner label {
   display: block;
   padding-left: 15px;
@@ -58,23 +55,21 @@ main {
   border-radius: 20px;
   color: white;
   background: rgba(255,255,255,.2);
-  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .form-inner input[type="submit"] {
-  background: white;
-color: black;
+  background-color: white;
+  color: black;
 }
 
 .subscribe {
   position: absolute;
   right: 0;
   top: 50%;
-}
-
-.subscribe {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
   color: #EAEAEA;

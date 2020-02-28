@@ -1,15 +1,17 @@
 html {
   background: #000000;
   color: white;
+  font-size: 1rem;
 }
 main {
-  padding-top: 4.6rem;
+  padding-top: 5em;
 }
 
 .studio-overview {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 10%;
+  flex-wrap: wrap;
+  margin-bottom: 5em;
 }
 
 .studio-information {
@@ -18,21 +20,27 @@ main {
 }
 
 .studio-photo {
-  padding-top: 5em;
+  padding-top: 4em;
   width: 25em
 }
 
-h1 {
-  text-align: center;
+.studio-header {
+  text-align: left;
+  font-size: 3em;
 }
  div.studio-information > p {
    text-align: left;
  }
 
-.studio-services {
+.studio-services__description {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.studio-services__header {
+  text-align: center;
+  font-size: 3em;
 }
 
 figcaption {

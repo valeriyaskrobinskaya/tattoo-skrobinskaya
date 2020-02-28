@@ -9,95 +9,56 @@
 <body>
   <header class="main-header">
     <div>
-      <a href="index.html" class="main-header__brand">
+      <a href="index.html" class="main-header__brand" tabindex="-1">
         <img src="../images/logo.png" alt="Tattoo">
       </a>
     </div>
     <nav class="main-nav">
       <ul class="main-nav__items">
         <li class="main-nav__item">
-          <a href="index.html">Главная</a>
+          <a href="index.html" tabindex="-1">Главная</a>
         </li>
         <li class="main-nav__item">
-          <a href="about.html">О нас</a>
+          <a href="about.html" tabindex="-1">О нас</a>
         </li>
         <li class="main-nav__item">
-          <a href="artists.html">Художники</a>
+          <a href="artists.html" tabindex="-1">Художники</a>
         </li>
         <li class="main-nav__item">
-          <a href="portfolio.html">Галерея работ</a>
+          <a href="portfolio.html" tabindex="-1">Галерея работ</a>
         </li>
         <li class="main-nav__item">
-          <a href="form.html">Записаться</a>
+          <a href="form.html" tabindex="-1">Записаться</a>
         </li>
       </ul>
     </nav>
   </header>
   <main>
-    <form class="transparent">
-      <div class="form-inner">
-        <h3>Записаться на консультацию</h3>
-        <label for="username">Ваше имя</label>
-        <input type="text" id="username">
-        <label for="email">Ваша почта</label>
-        <input id="email" type="email">
-        <label for="phone">Ваш номер телефона</label>
-        <input type="text" id="phone">
-        <input type="submit" value="Отправить">
-      </div>
-    </form>
-    <div>
-      <article class="subscribe">
-        <h2>Подписываемся на нас:</h2>
-        <ul class="subscribe-list">
-          <li class="vk">
-            <a class="vk" href="#">Vkontakte</a>
-          </li>
-          <li class="insta">
-            <a class="insta" href="#">Instagram</a>
-          </li>
-          <li class="youtube">
-            <a class="youtube" href="#">Youtube</a>
-          </li>
-        </ul>
-      </article>
-      <article>
-        <h2>Найти нас на карте:</h2>
-        <a></a>
-      </article>
-    </div>
+      <form class="form">
+        <div class="form-inner">
+          <h3>Записаться на консультацию</h3>
+          <label for="username">Ваше имя</label>
+          <input type="text" id="username" tabindex="-1">
+          <label for="email">Ваша почта</label>
+          <input id="email" type="email"  tabindex="-1">
+          <label for="phone">Ваш номер телефона</label>
+          <input type="text" id="phone" tabindex="-1">
+          <button class="form__button" tabindex="-1">Отправить</button>
+        </div>
+      </form>
   </main>
-<!--<footer class="main-footer">-->
-<!--  <ul class="social-networks">-->
-<!--    <li>-->
-<!--      <a href="#">Vkontakte</a>-->
-<!--    </li>-->
-<!--    <li>-->
-<!--      <a href="#">Instagram</a>-->
-<!--    </li>-->
-<!--    <li>-->
-<!--      <a href="#">Youtube</a>-->
-<!--    </li>-->
-<!--  </ul>-->
-<!--  <nav class="footer-navigation">-->
-<!--    <ul class="footer-nav__items">-->
-<!--      <li class="footer-nav__item">-->
-<!--        <a href="index.html.">Главная</a>-->
-<!--      </li>-->
-<!--      <li class="footer-nav__item">-->
-<!--        <a href="about.html">О нас</a>-->
-<!--      </li>-->
-<!--      <li class="footer-nav__item">-->
-<!--        <a href="artists.html">Художники</a>-->
-<!--      </li>-->
-<!--      <li class="footer-nav__item">-->
-<!--        <a href="portfolio.html">Галерея работ</a>-->
-<!--      </li>-->
-<!--      <li class="footer-nav__item">-->
-<!--        <a href="form.html">Записаться</a>-->
-<!--      </li>-->
-<!--    </ul>-->
-<!--  </nav>-->
-<!--</footer>-->
+  <footer class="main-footer">
+    <ul class="social-networks">
+      <li>
+        <a href="#" tabindex="-1">Vkontakte</a>
+      </li>
+      <li>
+        <a href="#"  tabindex="-1">Instagram</a>
+      </li>
+      <li>
+        <a href="#" tabindex="-1">Youtube</a>
+      </li>
+    </ul>
+  </footer>
 </body>
 </html>

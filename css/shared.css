@@ -3,12 +3,12 @@
 * {
   box-sizing: border-box;
   font-family:'Cuprum', sans-serif;
+  font-size: 1rem
 }
 
 .main-header {
   width: 100%;
-  /*position: fixed;*/
-  padding: 8px 16px;
+  padding: 0.25em 0.5em;
   z-index: 1;
   border-bottom:1px solid rgba(255, 255, 255, 0.5);
 }
@@ -20,7 +20,6 @@
 
 .main-header__brand img {
   height: 100%;
-  /* width: 100%; */
 }
 
 .main-nav {
@@ -38,18 +37,18 @@
 
 .main-nav__item {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 0.5em;
 }
 
 .main-nav__item a {
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1em;
+  line-height: 1.2em;
   text-align: center;
   color: #EAEAEA;
-  padding: 5px 5px;
+  padding: 0.1em 0.1em;
   border: 1px solid transparent;
   border-radius: 40px;
 }
@@ -66,10 +65,8 @@ ul.social-networks a:hover {
 
 .main-footer {
   width: 100%;
-  /*position: fixed;*/
   bottom: 0;
-  padding: 8px 16px;
-  z-index: 1;
+  padding: 0.25em 0.5em;
   border-top:1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -80,17 +77,17 @@ ul.social-networks {
 
 ul.social-networks > li {
   display: inline;
-  margin: 0 16px;
+  margin: 0 0.5em;
 }
 
 ul.social-networks > li > a {
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1em;
+  line-height: 1.2em;
   color: #EAEAEA;
-  padding: 3px 0;
+  padding: 0.2em 0;
 }
 
 .footer-nav__items {
@@ -100,31 +97,18 @@ ul.social-networks > li > a {
 
 .footer-nav__item {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 0.5em;
 }
 
 .footer-nav__item a {
   text-decoration: none;
-  /*font-family: ;*/
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1em;
+  line-height: 1.2em;
   text-align: center;
   color: #EAEAEA;
-  padding: 5px;
-}
-
-li.vk:before {
-  background-image: url("../images/Vector.png");
-}
-
-li.insta:before {
-  background-image: url("../images/Vector (1).png");
-}
-
-li.youtube:before {
-  background-image: url("../images/Vector (2).png");
+  padding: 0.2em;
 }
 
 

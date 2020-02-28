@@ -6,14 +6,18 @@ main {
   box-sizing: border-box;
 }
 
-.transparent {
+/*.form {*/
+/*  display: block;*/
+/*}*/
+
+.form {
   position: relative;
   max-width: 400px;
   padding: 60px 50px;
   margin: 50px auto 0;
 }
 
-.transparent:before {
+.form:before {
   content: "";
   position: absolute;
   top: 0;
@@ -45,7 +49,8 @@ main {
   text-transform: uppercase;
   font-size: 14px;
 }
-.form-inner input {
+.form-inner input ,
+.form__button {
   display: block;
   width: 100%;
   padding: 0 15px;
@@ -58,32 +63,16 @@ main {
   cursor: pointer;
 }
 
-.form-inner input[type="submit"] {
+.form__button {
   background-color: white;
+  text-decoration: none;
+  text-align: center;
   color: black;
 }
 
-.subscribe {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  list-style-type: none;
-}
 
-a {
-  text-decoration: none;
-  color: #EAEAEA;
-  font-size: 24px;
-}
 
-a:hover {
-  color: #4E4E4E;
-}
 
-.vk:before {
-  background-image: url("../images/Vector.png");
-  width: 10px;
-}
 
 
 

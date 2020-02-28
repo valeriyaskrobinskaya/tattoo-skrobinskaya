@@ -1,5 +1,5 @@
 html {
- background: url("../images/background.jpg") left 10% bottom 10%/cover no-repeat border-box;
+ background: url("../images/background.jpg") left 10% bottom 15%/cover no-repeat border-box;
 }
 
 main {
@@ -51,6 +51,5 @@ span.form-link > a:after {
 
 span.form-link > a:hover {
  color: #4E4E4E;
- background-color: black;
 }
 
